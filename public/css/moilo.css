@@ -1,0 +1,142 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.top1 img{
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.pp1{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.kolch1 img{
+    width: 100%;
+}
+.kolch1{
+    padding: 20px;
+}
+
+.kolch1 button{
+    border: none;
+    padding: 0.75rem 1.5rem;
+    border-radius: .7rem;
+    background-color: #008755;
+    font-size: 1rem;
+    font-weight:700;
+    color: white;
+    margin-top: 20px;
+    width: 100%;
+}
+
+/*  */
+
+
+.kolch2 img{
+    width: 100%;
+}
+
+.kolch2{
+    padding: 0 24px;
+}
+
+input{
+    font-weight: 400;
+color: rgb(59, 74, 87);
+    outline: none;
+font-size: 1rem;
+    font-weight: 600;
+    box-shadow: rgb(194 201 209) 0px 2px 0px;
+    border-radius: 1rem;
+    background-color: rgb(246, 247, 249);
+    border: none;
+    height: 70px;
+    padding-left: 20px;
+}
+.img2{
+    margin-top: 30px;
+}
+.cc{
+    display: flex;
+    width: 100%;
+    background-color: rgb(246, 247, 249);
+    box-shadow: rgb(194 201 209) 0px 2px 0px;
+    border-radius: 1rem;
+    align-items: center;
+}
+.cc img{
+    width: 100%;
+}
+.cc input{
+    
+    width: 85%;
+    font-size: 1rem;
+    font-weight: 600;
+    border: none;
+    background-color: none;
+    box-shadow: none;
+}
+.cc2{
+    margin-top: 20px;
+    display: flex;
+    width: 100%;
+    margin-bottom: 30px;
+}  
+.inp{
+    width: 50%;
+}
+.inp1{
+    margin-right: 15px;
+}
+
+.pp3{
+    color: rgb(99, 99, 99);
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.mm{
+    margin-bottom: 20px;
+}
+
+
+.kolch2 button{
+    
+    cursor: pointer;
+    -moz-box-align: center;
+    align-items: center;
+    border-radius: .7rem;
+    border: 3px solid transparent;
+    background-clip: padding-box;
+    transition: all 100ms ease-in 0s;
+    position: relative;
+    z-index: 0;
+    color: rgb(255, 255, 255);
+    background-color: #008755;
+    padding: 0px;
+    width: 100%;
+    padding: 10px 25px;
+    font-size: 1.2em;
+    font-weight: 600;
+}
+
+
+
+
+.sms{
+    width: 100%;
+    margin-bottom: 40px;
+    margin-top: 50px;
+}
+
+
+
+.bonit img{
+    width: 100%;
+    margin-top: 60px;
+}

